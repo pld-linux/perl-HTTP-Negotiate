@@ -21,6 +21,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-HTTP-Message >= 6
 %endif
+Requires:	perl-HTTP-Message >= 6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -60,6 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes
 %{perl_vendorlib}/HTTP/Negotiate.pm
 %{_mandir}/man3/HTTP::Negotiate.3pm*
