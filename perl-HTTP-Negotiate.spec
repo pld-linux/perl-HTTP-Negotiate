@@ -8,13 +8,13 @@
 Summary:	HTTP::Negotiate - choose a variant to serve
 Summary(pl.UTF-8):	HTTP::Negotiate - wybór wariantu do serwowania
 Name:		perl-HTTP-Negotiate
-Version:	6.00
+Version:	6.01
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTTP/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f2d89957d1c4f62a86f18b08e07c2328
+# Source0-md5:	1236195250e264d7436e7bb02031671b
 URL:		http://search.cpan.org/dist/HTTP-Negotiate/
 BuildRequires:	perl-devel >= 1:5.8.8
 BuildRequires:	rpm-perlprov >= 4.1-13
