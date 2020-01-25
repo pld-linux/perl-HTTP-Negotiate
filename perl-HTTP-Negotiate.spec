@@ -4,7 +4,6 @@
 #
 %define		pdir	HTTP
 %define		pnam	Negotiate
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTTP::Negotiate - choose a variant to serve
 Summary(pl.UTF-8):	HTTP::Negotiate - wybór wariantu do serwowania
 Name:		perl-HTTP-Negotiate
