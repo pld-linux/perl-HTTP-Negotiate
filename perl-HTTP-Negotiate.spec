@@ -8,7 +8,7 @@ Summary:	HTTP::Negotiate - choose a variant to serve
 Summary(pl.UTF-8):	HTTP::Negotiate - wybór wariantu do serwowania
 Name:		perl-HTTP-Negotiate
 Version:	6.01
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
